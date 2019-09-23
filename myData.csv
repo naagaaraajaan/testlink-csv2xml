@@ -1,0 +1,11 @@
+name,preconditions,actions,expectedresults
+Check for sigup via Facebook,"User state in general 
+Valid facebook account","Go to app
+Select the Facebook option",It should redirect to Enter mobile page
+Check for sigup via Google,"User state in general 
+Valid google account","Go to app
+Select the Google option",It should redirect to Enter mobile page
+Check for login via mobile number,"User in any state
+Enter the mobile number","Go to app
+Select the Login via mobile number","User should be able to enter the mobile number
+"

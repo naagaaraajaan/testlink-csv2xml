@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase name="Check for sigup via Facebook">
+<preconditions>User state in general 
+Valid facebook account</preconditions>
+<steps>
+<step>
+<step_number>1</step_number>
+<actions>Go to app
+Select the Facebook option</actions>
+<expectedresults>It should redirect to Enter mobile page</expectedresults>
+</step>
+</steps>
+</testcase>
+<testcase name="Check for sigup via Google">
+<preconditions>User state in general 
+Valid google account</preconditions>
+<steps>
+<step>
+<step_number>1</step_number>
+<actions>Go to app
+Select the Google option</actions>
+<expectedresults>It should redirect to Enter mobile page</expectedresults>
+</step>
+</steps>
+</testcase>
+<testcase name="Check for login via mobile number">
+<preconditions>User in any state
+Enter the mobile number</preconditions>
+<steps>
+<step>
+<step_number>1</step_number>
+<actions>Go to app
+Select the Login via mobile number</actions>
+<expectedresults>User should be able to enter the mobile number
+</expectedresults>
+</step>
+</steps>
+</testcase>
+</testcases>
